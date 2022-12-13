@@ -1,5 +1,5 @@
 Step: 1
-Disable selinux \n
+Disable selinux <br/>
 vi /etc/selinux/config
 SELINUX=disabled
 
