@@ -1,15 +1,15 @@
 Step: 1
-Disable selinux 
+Disable selinux \n
 vi /etc/selinux/config
 SELINUX=disabled
 
 Step: 2
 Restart Linux Server
 
-step 4:
-Check docker service is running
+step 3:
+Check docker service is running \n
 systemctl status docker
-Start the service if not running
+Start the service if not running \n
 systemctl start docker
 systemctl enable docker
 
